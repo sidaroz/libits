@@ -15,7 +15,7 @@ async function submitHabit() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(emailAddedToBody),
     };
-    const r = await fetch("http://localhost:3000/habits/", options);
+    const r = await fetch("https://libits.herokuapp.com/habits/", options);
     const data = await r.json();
     location.hash = "#feed";
   } catch (err) {
@@ -29,7 +29,10 @@ async function getAllPosts() {
       headers: new Headers({ authorization: localStorage.getItem("token") }),
     };
     const getEmail = localStorage.getItem("email");
-    const r = await fetch(`http://localhost:3000/habits/${getEmail}`, options);
+    const r = await fetch(
+      `https://libits.herokuapp.com/habits/${getEmail}`,
+      options
+    );
     const r_json = await r.json();
     if (r_json.err) {
       localStorage.clear();
@@ -50,7 +53,7 @@ async function deleteHabit(e) {
       body: JSON.stringify({ id: habitSelected }),
     };
     const response = await fetch(
-      `http://localhost:3000/habits/entry/${habitSelected}`,
+      `https://libits.herokuapp.com/habits/entry/${habitSelected}`,
       options
     );
     // const data = await response.json()
@@ -69,7 +72,7 @@ async function increaseCounter(e) {
       body: JSON.stringify({ id: targetId }),
     };
     const response = await fetch(
-      `http://localhost:3000/habits/entry/${targetId}`,
+      `https://libits.herokuapp.com/habits/entry/${targetId}`,
       options
     );
     window.location.reload();

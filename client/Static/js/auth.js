@@ -9,7 +9,7 @@ async function submitLoginForm(e) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formDataObj),
     };
-    const r = await fetch("http://localhost:3000/users/login", options);
+    const r = await fetch("https://libits.herokuapp.com/users/login", options);
     const data = await r.json();
     storeLoginData(data.token);
   } catch (err) {
@@ -31,7 +31,10 @@ async function submitRegisterForm(e) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formDataObj),
       };
-      const r = await fetch("http://localhost:3000/users/register", options);
+      const r = await fetch(
+        "https://libits.herokuapp.com/users/register",
+        options
+      );
       const data = await r.json();
       submitLoginForm(e);
     } catch (err) {
