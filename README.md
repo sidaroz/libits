@@ -56,7 +56,13 @@ Do not run startDev and startTest simulanteously.
 - Each habit can be deleted using the `X` button on the right
 - `+` button on the left increase the count by one for each habit
 - Once the counter reached the goal, the habit will be crossed out
+- Adding Streak functionality
 
 ## Challenges
 
 - Streak
+
+## Future Features
+
+- Allowing users to change email/password
+- Allowing users to log in with username aswell as email
