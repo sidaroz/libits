@@ -4,7 +4,7 @@ An user habit tracking website, where users can create and delete habits, give e
 
 ## Live Demo
 
-<p align="center"><img src="/client/Static/libits.gif" width="240" height="520"></p>
+<p align="center"><img src="/client/Static/libits.gif" width="250" height="520"></p>
 
 ## Remote Hosting
 
