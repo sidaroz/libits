@@ -1,4 +1,4 @@
-## Habit-tracking- Libits
+## Libits
 An user habit tracking website, where users can create and delete habits, give each habit its description , the amount of repetitions they want and the frequency of this habit. When a user completes a habit in the chosen time, the streak value is increased by 1.
 
 ## Contributors
