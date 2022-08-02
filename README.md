@@ -1,4 +1,4 @@
-## Libits
+# Libits
 An user habit tracking website, where users can create and delete habits, give each habit its description , the amount of repetitions they want and the frequency of this habit. When a user completes a habit in the chosen time, the streak value is increased by 1.
 
 ## Remote Hosting
@@ -23,7 +23,7 @@ An user habit tracking website, where users can create and delete habits, give e
 
 ### Usage
 
-- Make sure you have Docker running, and navigate to directory with docker-compose file, to navigate out of a directory use command `cd ..` in the terminal
+- Make sure you have Docker running
 - Run `bash _scripts/startDev.sh` to get the API and DB containers running and then open the client on live server
 - Run `bash _scripts/startTest.sh` to execute the tests on the backend
 - Run `bash _scripts/tearDown.sh` to stop and delete the containers.
