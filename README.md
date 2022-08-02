@@ -65,6 +65,7 @@ Do not run startDev and startTest simulanteously.
 ## Wins
 
 - After registering the page automatically login
+- User authentication and authorisation
 - Add habit form pops down when clicked on
 - Each habit can be deleted using the `X` button on the right
 - `+` button on the left increase the count by one for each habit
