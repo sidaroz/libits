@@ -2,7 +2,7 @@
 
 An user habit tracking website, where users can create and delete habits, give each habit its description , the amount of repetitions they want and the frequency of this habit. When a user completes a habit in the chosen time, the streak value is increased by 1.
 
-## Live Demo
+## Demo
 
 <p align="center"><img src="/client/Static/libits.gif" width="260" height="520"></p>
 
