@@ -35,6 +35,23 @@ An user habit tracking website, where users can create and delete habits, give e
 
 Do not run startDev and startTest simulanteously.
 
+## Technologies
+
+### Frontend
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+### Backend
+
+- Node.js
+- Express
+- PostgreSQL
+- JWT
+- Docker
+
 ## Design
 
 ### Homepage
